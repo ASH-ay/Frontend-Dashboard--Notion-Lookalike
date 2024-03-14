@@ -1,0 +1,226 @@
+.header{
+  padding: 1rem;
+  background: #fff;
+  border-radius: 20px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.header-container {
+  padding: 1rem;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header-icon {
+  font-size: 1.5rem;
+}
+
+.content{
+  margin: 0px 16px;
+  padding: 1rem;
+  height: calc(100vh + 8rem);
+  border-radius: 20px;
+  background-color: #fff;
+}
+.footer{
+  position: relative; 
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.triger-btn{
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+.team-container-collapsed {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-weight: 500;
+}
+
+
+.sider{
+  height: 100% !important;
+  width: 30vh !important;
+  position: sticky !important;
+  left: 10px;
+  right: 30px;
+  bottom: 0;
+  top: 0;
+  border-radius: 20px;
+}
+
+.menu-bar{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  font-weight: 500;
+}
+.ant-menu-item-selected {
+  background-color: grey !important;
+  color: #fff !important;
+}
+
+.header-icon{
+  background: rgb(209, 207, 207);
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.ant-btn:hover{
+  color: grey !important;
+  border-color: grey !important;
+}
+.ant-btn-primary{
+  background-color: grey;
+}
+.ant-btn-primary:hover{
+  background-color: black !important;
+  color: #fff !important;
+}
+.primary--color{
+  color: grey !important;
+}
+.primary--light--color{
+  color: rgb(179, 175, 175) !important;
+}
+.secondary--color{
+  color: #818381 !important;
+}
+.light--color{
+  color: #babcba !important;
+}
+.grey--color{
+  color: grey !important;
+}
+
+.container {
+  height: 80vh;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items:flex-start;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.buttonStyle {
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+  margin-left: 0.5rem;
+}
+.buttonStyle:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.selectStyle {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+  border-right: 1px solid #ccc; 
+}
+.redCell {
+  color: red;
+}
+.blueCell {
+  color: blue;
+}
+
+.greenCell {
+  color: green;
+}
+.boxedCell {
+  border: 1px solid black;
+  padding: 5px;
+}
+.footer {
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.footer-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.footer-button {
+  margin-right: 0.5rem;
+}
+
+.footer-dropdown {
+  margin-right: 0.5rem;
+}
+
+.footer-close-button {
+  margin-left: 0.5rem;
+}
+
+.footer-button span.text {
+  display: inline-block;
+}
+
+.footer-button span.icon {
+  display: none;
+}
+
+.footer-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-dropdown-menu {
+  width: 100px;
+}
+.buttons{
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .footer-button span.text {
+    display: none;
+  }
+  .footer-button span.icon {
+    display: inline-block;
+  }
+  .buttonStyle{
+    display: none !important;
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  .header,
+  .content {
+    width: calc(100% + 60rem);
+  }
+  .buttons {
+    display: none;
+  }
+  .disable500{
+    display: none;
+  }
+}

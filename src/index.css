@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #dde6ed;
+  overflow:inherit;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.sidebar-top {
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.sidebar-icon {
+  width: 35px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.sidebar-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.2rem;
+  margin-right: 3.5rem;
+}
+
+.sidebar-inc {
+  font-weight: bold;
+  color: #595757;
+}
+.profile-pic-wrapper {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.billing-btn{
+  color: white;
+  background-color: black;
+  font-size: 10px;
+  margin-left: 0.5rem ;
+}
+.billing-btn:hover{
+  color: rgb(12, 6, 6) !important;
+  background-color: grey;
+}
+.small-txt{
+  font-size: small;
+}
+.folders{
+  font-size: small;
+  text-align: center;
+  margin-right: 8rem;
+  color: grey;
+}
+.folders-collapse{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-weight: 500;
+}
+.team-item-collapsed {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-weight: 500;
+}
+.sidebar-teams {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.team-container {
+  border: 1px solid #dbdada;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: auto;
+  margin: 0.5rem 0.5rem;
+}
+.team-container-collapsed {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-weight: 500;
+}
+
+.team-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.team-item.selected {
+  background-color: #f0f0f0;
+}
+
+.delete-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.create-team {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.create-team input {
+  font-size: small;
+  border: none;
+}
+
+.create-team button {
+  background-color: #4c4d4e;
+  color: #000000;
+  border: none;
+  font-size: large;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-team button:hover {
+  background-color: #9fd6f1;
+}
+
+.team-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.team-item.selected {
+  background-color: #f0f0f0;
+}
+
+.delete-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+}
+
+.team-icon {
+  margin-right: 5px; /* Add margin-right to create space between icon and name */
+}
+
+
+.create-team {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.create-team input {
+  margin-right: 0.5rem;
+  border: none;
+  height: 2rem;
+  width: 170px;
+}
+
+.create-team button {
+  background-color: #ffffff;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.create-team button:hover {
+  background-color: #c2c2c2;
+}
+
