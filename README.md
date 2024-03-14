@@ -1,6 +1,7 @@
 # Responsive UI Design with Enhanced User Experience
 
-![Project Logo](https://drive.google.com/file/d/1p-Y-5ya3n3fkVizvqHzd-O0b21jLwAlD/view?usp=drive_link)
+![img19](https://github.com/ASH-ay/Frontend-Dashboard--Notion-Lookalike/assets/142778206/d799e6d0-f263-4897-993a-f036c3206e88)
+
 
 ## Description
 
